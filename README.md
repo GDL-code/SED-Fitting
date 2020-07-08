@@ -1,8 +1,8 @@
 # SED-Fitting
-The function of cw_filter_loading, greybody, cw_fflux_from_spec_bandname and cw_sed_load come from Tsai.
-The extinction model: Fitzpatrick & Massa (2007) extinction model for R_V = 3.1.
-H0=70 km/s/Kpc, OmO=0.3
-When you use the code, you need to modify the process 1 and process 2.
+# The function of cw_filter_loading, greybody, cw_fflux_from_spec_bandname and cw_sed_load come from Tsai.
+# The extinction model: Fitzpatrick & Massa (2007) extinction model for R_V = 3.1.
+# H0=70 km/s/Kpc, OmO=0.3
+# When you use the code, you need to modify the process 1 and process 2.
 # Process 1: Input data
 #           You should modify the redshift, flux, flux_error, filter_list, wave, up_limit, sourcename, tem_control and Av_control.
 #           You need to ensure the unit of wave is micron and the unit of flux or flux_error is milli Jy
